@@ -1,0 +1,514 @@
+
+/* =========================================
+   Media Queries (max-width: 1600px)
+========================================= */
+@media screen and (max-width: 1600px){
+    .cursor{
+       display: none;
+    }
+    .rana_p_fo_container{
+       max-width: 1075px;
+    }
+    .avatar_img{
+       width: 385px;
+       height: 385px;
+    }
+ }
+
+/* =========================================
+ Media Queries (max-width: 1200px)
+============================================ */
+   @media screen and (max-width: 1200px){
+   .rana_p_fo_container{
+      max-width: 100%;
+      margin-left: 50px;
+      margin-right: 50px;
+   }
+
+   .avatar_container{
+      margin-top: 50px;
+   } 
+
+   .section_content{
+      flex-direction: column;
+      column-gap: 0;
+      row-gap: 50px;
+   }
+   
+   .about_img{
+      width: 375px;
+   }
+
+   .about_details{
+      width: unset;
+   }
+
+   .about_info{
+      display: grid;
+      place-items: center;
+   }
+
+   .about_description{
+      max-width: 700px;
+   }
+
+   .about_buttons{
+      width: 100%;
+      justify-content: center;
+   }   
+   
+   .portfolio_container{
+      grid-template-columns: repeat(2, 1fr) !important;
+   }
+
+   .skill_container {
+      place-items: center;
+      grid-template-columns: repeat(1, 1fr) !important;
+   }
+    
+} 
+/* =========================================
+ Media Queries (max-width: 992px)
+========================================= */
+@media screen and (max-width: 992px){
+   .home_container {      
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+   .avatar_container{
+      flex-direction: column-reverse;
+      row-gap: 10px;
+      margin-top: 0;
+   }
+
+   .avatar_container {
+    position: relative;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    /* margin-top: 80px; */
+}
+   .avatar_container .hire_btn_01{
+      display: block;
+   }
+
+   .avatar_container .hire_btn_02{
+      display: none;
+   }
+
+   .avatar_img {
+      width: 350px;
+   }
+   .avatar_info .what_i_do {
+      margin-bottom: 15px;
+  }
+
+   .avatar_info .text_content{
+      align-items: center;
+   }
+
+   .service_container{
+      grid-template-columns: repeat(2, 1fr) !important;
+   }
+
+   .portfolio_container{
+      grid-template-columns: repeat(1, 1fr) !important;
+   }
+
+   .swiper{
+      max-width: 700px;
+      height: 450px;
+   }
+
+   .swiper-slide{      
+      flex-direction: column;
+   }
+
+   .swiper-slide .client_img{      
+      margin-bottom: 40px;
+   }
+
+   .swiper-slide .client_details{      
+      text-align: center;
+   }
+
+   .contact_container{
+      flex-direction: column;
+      row-gap: 75px;
+   }
+
+   .contact_info{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   .contact_social_links{    
+      justify-content: center;
+   }
+}
+
+/* =========================================
+ Media Queries (max-width: 768px)
+========================================= */
+@media screen and (max-width: 768px){
+
+:root{ 
+    /* ======= Font sizes ======= */
+    --h1-font-size: 2.3rem;
+    --h2-font-size: 1.97rem;  
+    --h3-font-size: 1.75rem;
+    --h4-font-size: 1.3rem;
+    --h5-font-size: 1.05rem;
+ 
+    --xlarge-font-size: 1.28rem;
+    --large-font-size: 1.13rem;
+    --medium-font-size: 1.06rem;
+    --base-font-size: 1rem;
+    --small-font-size: .93rem;
+    --tiny-font-size: .88rem;
+} 
+
+.rana_p_fo_container{
+   margin-left: 25px;
+   margin-right: 25px;
+}
+
+.rana_p_fo_logo a{
+   font-size: 2.35rem;
+}
+
+.lets_talk_btn{
+   display: none;
+}
+
+.lets_talk_icon{
+   font-size: 1.6rem;
+   display: block;
+}
+
+.theme_btn i{
+   font-size: 1.6rem;
+}
+
+.bottom_nav{
+   bottom: -30px;
+}
+
+.bottom_nav.active{
+   bottom: 30px;
+}
+
+.bottom_nav .menu li a i{
+   font-size: 1.25rem;
+}
+
+.home_container {
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.home_social .social_line{
+   margin-top: 32px;
+   margin-bottom: 20px;
+}
+
+
+.avatar_container {
+   margin-top: 0;
+}
+
+.resume_item .item .info{
+   width: 185px;
+   column-gap: 15px;
+}
+
+.resume_item .item_left .info{
+   right: 25px;
+}
+
+.resume_item .item_right .info{
+   right: 75px;
+}
+
+.resume_item .item .info i{
+   display: none;
+}
+
+.skill_card{
+   padding: 50px 0;
+}
+
+.skill i{
+   font-size: 1.25rem;
+}
+
+.service_container{
+   grid-template-columns: repeat(1, 1fr) !important;
+   row-gap: 30px;
+}
+
+.service_card{
+   width: 245px;
+   height: 250px;
+}
+
+.service_icon{
+   font-size: 3.25rem;
+   text-align: center;
+}
+
+.service_icon h4{
+   white-space: wrap;
+   max-width: unset;
+}
+
+.service_modal {
+   padding: 50px 20px;
+}
+
+.portfolio_modal {
+   padding: 50px 20px;
+}
+
+.swiper-button-next i swiper-button-prev i{
+   font-size: 4rem;
+}
+
+.contact_form{
+   padding: 35px;
+   border-radius: 10px;
+}
+
+}
+
+/* =========================================
+ Media Queries (max-width: 480px)
+========================================= */
+
+@media screen and (max-width: 480px){
+ :root{
+       /* ======= Font sizes ======= */
+       --h1-font-size: 2.25rem;
+       --h2-font-size: 1.9rem;  
+       --h3-font-size: 1.65rem;
+       --h4-font-size: 1.25rem;
+       --h5-font-size: 1.02rem;
+    
+       --xlarge-font-size: 1.25rem;
+       --large-font-size: 1.1rem;
+       --medium-font-size: 1.03rem;
+       --base-font-size: 1rem;
+       --small-font-size: .9rem;
+       --tiny-font-size: .85rem;
+    }
+    .rana_p_fo_container{
+       margin-left:  20px;
+       margin-right: 20px;
+    }
+    .rana_p_fo_header{
+       padding: 20px 0;
+    }
+    .rana_p_fo_header_btn{
+       column-gap: 15px;
+    }
+    .home_container .rana_p_fo_wrapper{
+       flex-direction: column-reverse;
+    }
+   
+   .home_container {
+          margin-top: 80px !important;
+          margin-bottom: 150px !important;
+   }
+  
+    .home_social{
+       position: relative;
+       top: 50px;
+    }
+
+    .home_social span{
+       display: none;
+    }
+    .home_social .social_line{
+       display: none;
+    }
+    .home_social .social_icons{
+       display: flex;
+       flex-direction: row;
+       gap: 30px;
+    }
+    .home_scroll_btn{
+       display: none;
+    }
+    .avatar_container{
+       row-gap: 0;
+       width: 100%;
+       margin-top: 80px;
+    }
+    .avatar_img{
+       width: 85%;
+       height: fit-content;
+       padding-bottom: 94%;
+    }
+    .bottom_nav{
+       width: 100%;
+       padding: 0 20px;
+    }
+
+    .bottom_nav .menu{
+       padding: 17px 25px;
+       justify-content: space-between;
+       column-gap: 7px;
+       width: 100%;;
+    }
+
+    .bottom_nav .menu li a i{
+       font-size: 1.15rem;
+       padding: 7px
+    }
+  
+    .bottom_nav .menu_hide_btn{
+       font-size: 1.25rem;
+    }
+
+    .menu_show_btn{
+       width: 75px;
+       height: 45px;
+       row-gap: 4px;
+       bottom: -30px;
+    }
+
+    .menu_show_btn.active{
+       bottom: 30px;
+    }
+
+    .menu_hide_btn .bar_01,
+    .menu_show_btn .bar_02{
+       width: 37px;
+       height: 3px;
+    }
+
+    .about_img{
+       width: 100%;
+       max-width: 375px;
+    }
+
+    .pro_list{
+       grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
+    }
+
+    .pro_card{
+       flex-direction: column;
+       row-gap: 3px;
+    }
+
+    .pro_card span{
+       font-size: 2.5rem;
+    }
+
+    .pro_card p{
+       text-align: center;
+    }
+
+    .about_buttons{
+       column-gap: 15px;
+    }
+
+    .resume_item .item .info{
+       width: 140px;
+    }
+
+    .resume_item .item_left .info{
+       right: 20px;
+    }
+    .resume_item .item_right .info{
+       left: 45px;
+    }
+
+    .resume_item .item .info p{
+       white-space: break-spaces;
+    }
+
+    .skill_container{
+       row-gap: 35px;
+    }
+
+    .skill_card{
+       padding: 35px 0;
+    }
+
+    .skill_title{
+       margin-bottom: 35px;
+    }
+
+    .skill_categroies{
+       column-gap: 35px;
+       padding: 0 25px;
+    }
+
+    .service_container{
+       width: 100%;
+    }
+
+    .card_with_modal{
+       width: 100%;
+    }
+
+    .service_card{
+       margin: 0 auto;
+    }
+
+    .service_modal{
+       padding: 50px 15px;
+       margin: 75px 20px;
+    }
+
+    .portfolio_container{
+       row-gap: 25px;
+       width: 100%;
+    }
+
+    .portfolio_card{
+       width: 100%;
+    }
+
+    .portfolio_modal{
+       padding: 65px 20px;
+    }
+
+    .contact_details{  
+       row-gap: 35px;
+    }
+
+    .contact_social_links{
+       column-gap: 20px;
+    }
+
+    .contact_social_links li{
+       font-size: 1.65rem;
+       width: 75px;
+       height: 75px;
+    }
+
+    .contact_form{
+       padding: 35px 20px;
+    }
+
+    .contact_form h2{
+       text-align: center;
+    }
+
+    .contact_form .input_group{
+       display: grid;
+       place-items: center;
+    }
+
+    .to_top_btn{
+       display: none;
+    }
+
+ }
